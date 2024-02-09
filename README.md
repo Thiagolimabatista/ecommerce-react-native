@@ -38,7 +38,19 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
+$ git clone # Clone this repository
 $ git clone https://github.com/Thiagolimabatista/nubank-react-native
+# Go into the repository
+$ cd nubankRN
+
+# Install dependencies
+$ yarn install
+
+# Run the app (iOS)
+$ react-native run-ios --simulator="iPhone XS Max"
+
+# Run the app (Android)
+$ react-native run-android
 # Go into the repository
 $ cd nubankRN
 
